@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00C12F27CBC8CDC76C74E39B /* Pods_idnow_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D0B314CCE57C57345C86B1 /* Pods_idnow_sample.framework */; };
 		00E356F31AD99517003FC87E /* idnow_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* idnow_sampleTests.m */; };
+		081F68999DDD577D712983D7 /* Pods_idnow_sample_idnow_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A814854B86457F1F9227F /* Pods_idnow_sample_idnow_sampleTests.framework */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		5B3022057CDB9EDB395AE678 /* libPods-idnow_sample-idnow_sampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A482DA6E86115DB926F411F /* libPods-idnow_sample-idnow_sampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		BBD86A93BCCD4B717F7EC938 /* libPods-idnow_sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6085885CA58F9E45C6006A /* libPods-idnow_sample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,9 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = idnow_sample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = idnow_sample/main.m; sourceTree = "<group>"; };
 		1ABA35F52D5DF1FCF96E0057 /* Pods-idnow_sample-idnow_sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idnow_sample-idnow_sampleTests.release.xcconfig"; path = "Target Support Files/Pods-idnow_sample-idnow_sampleTests/Pods-idnow_sample-idnow_sampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		4A482DA6E86115DB926F411F /* libPods-idnow_sample-idnow_sampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-idnow_sample-idnow_sampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D0B314CCE57C57345C86B1 /* Pods_idnow_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idnow_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = idnow_sample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE6085885CA58F9E45C6006A /* libPods-idnow_sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-idnow_sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9A814854B86457F1F9227F /* Pods_idnow_sample_idnow_sampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idnow_sample_idnow_sampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CD06B004FB6A3A038B383D /* Pods-idnow_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idnow_sample.release.xcconfig"; path = "Target Support Files/Pods-idnow_sample/Pods-idnow_sample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EE5E98E1B5274D4354842306 /* Pods-idnow_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idnow_sample.debug.xcconfig"; path = "Target Support Files/Pods-idnow_sample/Pods-idnow_sample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3022057CDB9EDB395AE678 /* libPods-idnow_sample-idnow_sampleTests.a in Frameworks */,
+				081F68999DDD577D712983D7 /* Pods_idnow_sample_idnow_sampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBD86A93BCCD4B717F7EC938 /* libPods-idnow_sample.a in Frameworks */,
+				00C12F27CBC8CDC76C74E39B /* Pods_idnow_sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				AE6085885CA58F9E45C6006A /* libPods-idnow_sample.a */,
-				4A482DA6E86115DB926F411F /* libPods-idnow_sample-idnow_sampleTests.a */,
+				28D0B314CCE57C57345C86B1 /* Pods_idnow_sample.framework */,
+				AE9A814854B86457F1F9227F /* Pods_idnow_sample_idnow_sampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
